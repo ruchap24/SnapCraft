@@ -208,10 +208,10 @@ function App() {
           <div className='text-xl font-poppins '>
           <p className='mt-[-20px] mb-8'>Rotate & Flip</p>
               <div className='space-x-1 flex'>
-                  <button onClick={handleRotateLeft} className='rounded-sm border border-gray-400 w-14 h-9'><i class = "fa-solid fa-rotate-left"></i></button>
-                  <button onClick={handleRotateRight} className='rounded-sm border border-gray-400 w-14 h-9'><i class = "fa-solid fa-rotate-right"></i></button>
-                  <button onClick={handleFlipVertical} className='rounded-sm border border-gray-400 w-14 h-9'><i class='bx bx-reflect-vertical'></i></button>
-                  <button onClick={handleFlipHorizontal} className='rounded-sm border border-gray-400 w-14 h-9'><i class='bx bx-reflect-horizontal'></i></button>
+                  <button onClick={handleRotateLeft} className='rounded-sm border border-gray-400 w-14 h-9'><i className = "fa-solid fa-rotate-left"></i></button>
+                  <button onClick={handleRotateRight} className='rounded-sm border border-gray-400 w-14 h-9'><i className = "fa-solid fa-rotate-right"></i></button>
+                  <button onClick={handleFlipVertical} className='rounded-sm border border-gray-400 w-14 h-9'><i className='bx bx-reflect-vertical'></i></button>
+                  <button onClick={handleFlipHorizontal} className='rounded-sm border border-gray-400 w-14 h-9'><i className='bx bx-reflect-horizontal'></i></button>
               </div>   
           </div>
 
